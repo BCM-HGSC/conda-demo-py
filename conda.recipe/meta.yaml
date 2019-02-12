@@ -6,6 +6,7 @@ package:
 
 about:
   home: https://github.com/BCM-HGSC/conda-demo-py
+  license: MIT
   summary: {{ data['description']}}
 
 source:
