@@ -1,4 +1,4 @@
-"""Top-level package for conda_demo."""
+"""Top-level package for conda_demo_py."""
 
 from .version import __version__
 

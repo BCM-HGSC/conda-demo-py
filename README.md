@@ -1,4 +1,4 @@
-# conda_demo
+# conda_demo_py
 
 Copyright 2019 Baylor College of Medicine
 

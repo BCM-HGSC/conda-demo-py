@@ -1,4 +1,4 @@
-"""A setuptools based setup module for conda_demo."""
+"""A setuptools based setup module for conda_demo_py."""
 
 
 from os import path
@@ -6,7 +6,7 @@ from os import path
 from setuptools import setup, find_packages
 
 HERE = path.abspath(path.dirname(__file__))
-NAME = 'conda_demo'
+NAME = 'conda_demo_py'
 
 # Load the version
 with open(path.join(HERE, NAME, 'version.py')) as version_file:
@@ -52,7 +52,7 @@ setup(
     setup_requires=SETUP_REQUIREMENTS,
     entry_points={
         'console_scripts': [
-            'cdemo=conda_demo.cli:main',
+            'cdemo=conda_demo_py.cli:main',
         ],
     },
 )
