@@ -52,7 +52,7 @@ setup(
     setup_requires=SETUP_REQUIREMENTS,
     entry_points={
         'console_scripts': [
-            'cdemo=conda_demo_py.cli:main',
+            'cdemopy=conda_demo_py.cli:cdemopy',
         ],
     },
 )

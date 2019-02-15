@@ -1,7 +1,7 @@
 """Console scripts."""
 
 
-def main():
+def cdemopy():
     """All CLI entry point functions must take no arguments and return either
     None or an exit code."""
     print('hello from conda_demo_py')
